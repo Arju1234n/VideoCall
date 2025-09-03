@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react';
 import io from "socket.io-client";
 import { 
   Badge, 
@@ -10,32 +10,23 @@ import {
   Container, 
   Grid, 
   Card, 
-  CardContent,
   AppBar,
   Toolbar,
   Drawer,
-  List,
-  ListItem,
-  ListItemText,
   Divider,
   Chip,
-  Avatar,
-  Paper,
-  Fab,
-  Snackbar,
-  Alert
+  Paper
 } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { deepPurple, grey, red, green, orange } from '@mui/material/colors';
+import { deepPurple, orange } from '@mui/material/colors';
 import VideocamIcon from '@mui/icons-material/Videocam';
-import VideocamOffIcon from '@mui/icons-material/VideocamOff'
-import styles from "../styles/videoComponent.module.css";
-import CallEndIcon from '@mui/icons-material/CallEnd'
-import MicIcon from '@mui/icons-material/Mic'
-import MicOffIcon from '@mui/icons-material/MicOff'
+import VideocamOffIcon from '@mui/icons-material/VideocamOff';
+import CallEndIcon from '@mui/icons-material/CallEnd';
+import MicIcon from '@mui/icons-material/Mic';
+import MicOffIcon from '@mui/icons-material/MicOff';
 import ScreenShareIcon from '@mui/icons-material/ScreenShare';
-import StopScreenShareIcon from '@mui/icons-material/StopScreenShare'
-import ChatIcon from '@mui/icons-material/Chat'
+import StopScreenShareIcon from '@mui/icons-material/StopScreenShare';
+import ChatIcon from '@mui/icons-material/Chat';
 import CloseIcon from '@mui/icons-material/Close';
 import SendIcon from '@mui/icons-material/Send';
 import GroupIcon from '@mui/icons-material/Group';
@@ -44,7 +35,6 @@ import CssBaseline from '@mui/material/CssBaseline';
 import server from '../environment';
 
 const server_url = server;
-
 var connections = {};
 
 const peerConfigConnections = {
@@ -95,12 +85,6 @@ const getTheme = (mode) => createTheme({
           '&:hover': {
             transform: 'translateY(-2px)',
             boxShadow: '0 4px 8px rgba(0,0,0,0.2)',
-          },
-        },
-        outlined: {
-          transition: 'all 0.3s ease',
-          '&:hover': {
-            transform: 'translateY(-2px)',
           },
         },
       },
@@ -786,4 +770,4 @@ export default function VideoMeetComponent() {
             )}
         </ThemeProvider>
     );
-}
+} 
