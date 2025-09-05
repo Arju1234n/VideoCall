@@ -227,11 +227,7 @@ export default function LandingPage() {
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, flexGrow: 1 }}>
             <VideoCallIcon sx={{ color: 'primary.main', fontSize: 28 }} />
             <Typography variant="h6" component="h1" sx={{ fontWeight: 'bold' }}>
-<<<<<<< HEAD
-              Video Call
-=======
               Apna Video Call
->>>>>>> 0d5305f7febe8faf553ea853a2d0d2b9dc86e5d4
             </Typography>
           </Box>
           
@@ -354,11 +350,7 @@ export default function LandingPage() {
               fontWeight: 'bold',
             }}
           >
-<<<<<<< HEAD
-            Why Choose Video Call?
-=======
             Why Choose Apna Video Call?
->>>>>>> 0d5305f7febe8faf553ea853a2d0d2b9dc86e5d4
           </Typography>
           
           <Grid container spacing={4}>
@@ -496,11 +488,7 @@ export default function LandingPage() {
             Ready to Connect?
           </Typography>
           <Typography variant="h6" sx={{ mb: 4, opacity: 0.9 }}>
-<<<<<<< HEAD
-            Join millions of users who trust Video Call for their communication needs
-=======
             Join millions of users who trust Apna Video Call for their communication needs
->>>>>>> 0d5305f7febe8faf553ea853a2d0d2b9dc86e5d4
           </Typography>
           <Button
             component={Link}
@@ -525,8 +513,4 @@ export default function LandingPage() {
       </Container>
     </ThemeProvider>
   );
-<<<<<<< HEAD
 }
-=======
-} 
->>>>>>> 0d5305f7febe8faf553ea853a2d0d2b9dc86e5d4

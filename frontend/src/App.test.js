@@ -1,8 +1,16 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+jest.mock('axios', () => ({
+  create: () => ({
+    post: jest.fn(() => Promise.resolve({ status: 200, data: { token: 't' } })),
+    get: jest.fn(() => Promise.resolve({ status: 200, data: {} })),
+  }),
+}));
+
+test('renders app title', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  // Specifically target the header title (h1)
+  const title = screen.getByRole('heading', { name: /Apna Video Call/i, level: 1 });
+  expect(title).toBeInTheDocument();
 });
