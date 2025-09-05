@@ -11,10 +11,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.6.5",
-<<<<<<< HEAD
-    "gh-pages": "^6.3.0",
-=======
->>>>>>> 0d5305f7febe8faf553ea853a2d0d2b9dc86e5d4
     "http-status": "^1.7.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -23,11 +19,16 @@
     "socket.io-client": "^4.7.3",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
