@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}import React, { useState, useEffect } from 'react';
-=======
 import React, { useState, useEffect } from 'react';
->>>>>>> 0d5305f7febe8faf553ea853a2d0d2b9dc86e5d4
 import { Link, useNavigate } from 'react-router-dom';
 import { 
   Button, 
