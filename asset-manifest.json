@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/VideoCall/static/css/main.8e5d429d.css",
+    "main.js": "/VideoCall/static/js/main.ed2bdabe.js",
+    "static/js/787.9e9f4ffd.chunk.js": "/VideoCall/static/js/787.9e9f4ffd.chunk.js",
+    "static/media/background.png": "/VideoCall/static/media/background.3ed97df76aa1ce9a5eec.png",
+    "index.html": "/VideoCall/index.html",
+    "main.8e5d429d.css.map": "/VideoCall/static/css/main.8e5d429d.css.map",
+    "main.ed2bdabe.js.map": "/VideoCall/static/js/main.ed2bdabe.js.map",
+    "787.9e9f4ffd.chunk.js.map": "/VideoCall/static/js/787.9e9f4ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e5d429d.css",
+    "static/js/main.ed2bdabe.js"
+  ]
+}
